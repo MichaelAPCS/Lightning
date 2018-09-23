@@ -1,3 +1,4 @@
+
 float headX = 50;
 float headY = 700;
 float headSize = 15;
@@ -86,6 +87,7 @@ void lightning() {
     System.out.println(startX+", "+ startY+", "+ endX+ ", " + endY);
     startX = endX;
     startY = endY;
+    redraw();
   }
 }
 void cloudColorMaker() {
