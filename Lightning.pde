@@ -87,7 +87,6 @@ void lightning() {
     //System.out.println(startX+", "+ startY+", "+ endX+ ", " + endY);
     startX = endX;
     startY = endY;
-    redraw();
   }
 }
 void cloudColorMaker() {
