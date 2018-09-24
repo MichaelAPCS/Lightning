@@ -84,7 +84,7 @@ void lightning() {
     strokeWeight(2);
     stroke(255); 
     line(Math.abs(startX), startY, Math.abs(endX), endY);
-    System.out.println(startX+", "+ startY+", "+ endX+ ", " + endY);
+    //System.out.println(startX+", "+ startY+", "+ endX+ ", " + endY);
     startX = endX;
     startY = endY;
     redraw();
